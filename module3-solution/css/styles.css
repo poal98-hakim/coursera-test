@@ -1,9 +1,44 @@
 h1{
-  font-family: 'Baloo Bhaina', cursive;
+font-family: 'Baloo Bhaina', cursive;
   margin-top: 0;
   color: black;
 }
 .navbar{
   padding-bottom: 10px;
   background-color: grey;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border-color: black;
+  border-style: solid;
+}
+#collapsable-nav{
+  background-color: white;
+}
+#nav-list a{
+  color: black;
+  font-size: 1.8em;
+  text-align: center;
+  border-top-width: 1px;
+  border-top-color: black;
+}
+#nav-list a:hover{
+  background-color: yellow;
+}
+.container-fluid{
+  background-color: grey;
+  width: 90%;
+}
+h2{
+  font-weight: bold;
+  font-family: 'Baloo Bhaina', cursive;
+}
+h3{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Baloo Bhaina';
+  color: black;
+}
+p{
+  color: black;
+  font-weight: bold;
 }
